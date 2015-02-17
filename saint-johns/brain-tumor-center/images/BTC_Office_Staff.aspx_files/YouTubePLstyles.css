@@ -1,0 +1,174 @@
+/**************************
+	Reset
+**************************/
+
+
+html, body, div,
+span, applet, object, 
+iframe, h1, h2, 
+h3, h4, h5, 
+h6, blockquote, pre, 
+a, abbr, acronym, 
+address, big, cite, 
+code, del, dfn, 
+em, font, img, 
+ins, kbd, q, 
+s, samp, small, 
+strike, strong, sub, 
+sup, tt, var, 
+b, u, i, 
+center, dl, dt, 
+dd, ol, ul, 
+li, fieldset, form, 
+label, legend, table, 
+caption, tbody, tfoot, 
+thead, tr, th, 
+td {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+}
+   
+body {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    line-height: 16px;
+}
+h1, h2, h3,
+ h4, h5, h6 {
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+blockquote, q {
+    quotes: none;
+}
+.    {
+    clear: both;
+}
+:focus {
+    outline: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+}
+a {
+    color: #585958;
+}
+input[type="text"], input[type="button"], input[type="submit"], input[type="email"], input[type="search"], input[type="password"], input[type="file"], textarea {
+    -moz-appearance: none;
+    border-radius: 0 0 0 0;
+}
+*::-moz-placeholder {
+    color: #A0A0A0;
+}
+input:-moz-placeholder {
+    color: #A0A0A0;
+}
+body {
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+
+.wrapperStyle {
+    height: 147px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 640px;
+    margin-bottom: 47px;
+    margin-top: 14px;
+}
+.slidesStyle {
+    display: none;
+    position: relative;
+}
+
+h3.playlist-title {
+    font-size: 16px;
+    padding: 0 35px;
+}
+h3.playlist-title a {
+    color: #333333;
+}
+h3.playlist-title a:hover {
+       color: #2793E6;
+}
+
+
+
+
+
+
+
+
+
+.slidesjs-navigation {
+    position: absolute;
+    top: 48px;
+    z-index: 9999;
+}
+.slidesjs-previous {
+    left: 14px;
+}
+.slidesjs-next {
+    right: 0;
+}
+
+#YouTubePlayLists a:link, #YouTubePlayLists a:visited {
+    color: #333333;
+}
+#YouTubePlayLists a:hover, #YouTubePlayLists a:active {
+    color: #9E2020;
+}
+
+.navbar {
+    overflow: hidden;
+}
+ul.slides-ul{
+    list-style: none outside none;
+    margin-left: 35px;
+    width: 604px;
+}
+ul li.slides-li {
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px 0;
+    width: 30%;
+}
+ul li.slides-li:first-child {
+    margin-left: 0;
+}
+ul li.slides-li a, ul li.slides-li span {
+    display: block;
+    text-align: left;
+}
+ul li .video-item {
+}
+ul li .video-item .video-thumb img {
+    height: auto;
+    width: 100%;
+}
+ul li .video-item .video-desc a.video-title {
+    color: #2793E6;
+    font-weight: bold;
+    margin-top: 5px;
+}

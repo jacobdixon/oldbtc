@@ -1,0 +1,42 @@
+/*----------------------------------------*/
+/* DEFAULT PAGE STRUCTURE CLASSES */
+
+table.d_main { width: 100%; vertical-align: top; border-width:0px; }
+table.d_main .leftCol	{ width:190px;vertical-align: top; }
+table.d_main .rightCol	{ padding-right: 15px; padding-left: 15px; vertical-align: top; }
+table.d_main .d_content { width: 100%; vertical-align: top; }
+table.d_main .d_medsvc  { width: 335px; height: 187px; padding-top: 15px; vertical-align: top; }
+table.d_main .d_condtm	{ padding: 15px 0px 0px 10px; height: 187px; }
+table.d_main .d_condtbl	{ width: 350px; height: 100%; }
+table.d_main .d_condlst	{ padding: 10px 10px 10px 5px; }
+table.d_main .d_condbfr { padding: 0px 0px 10px 10px; }
+table.d_main .d_condAlp { padding: 0 10px 6px 10px; color: #638fbc; }
+table.d_main .d_condAlp a, a:hover { color: #638fbc; }
+table.d_main .d_search  { padding: 0px 0px 10px 15px; }
+table.d_main .heading	{ font-size: 12px; }
+table.d_main .divider	{ padding-left: 10px; padding-right: 10px; height: 10px; }
+table.d_main .dottedln
+{	
+	background-image: url(../images/DotLine.gif);
+	background-repeat: repeat-x;	
+	height: 5px; 
+}
+.ConditionsSearchBtn
+{
+	margin-left: -3px;			
+	vertical-align: middle;
+	border: 1px solid #9c9c9c;
+}
+.ConditionsSearch
+{
+	border: 1px solid #9c9c9c;
+	vertical-align: middle;
+	margin: 0;	
+	padding: 2px;
+	color: #797979;
+	width: 250px;	
+}
+#ULElement
+{
+	margin: 0 0 0 -40px;	
+}
